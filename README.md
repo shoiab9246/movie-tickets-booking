@@ -1,6 +1,3 @@
-# CSCI-P-565-SE-I-Grp-02
-This is a repository for my team to work on a group project as a part of SE-I course in Spring 2022 term.
-
 # Setting up the project
 cd backend </br>
 npm install </br>
