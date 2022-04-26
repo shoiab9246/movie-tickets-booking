@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* History Report Component CSS */
+.report-list-container {
+  background-color: #F9F8FC;
+  border-radius: 27px;
+  width: 600px;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  margin-left: 27vw;
+}
+
+.report-title {
+  font-size: 1.50em;
+}
+
+.report-item-empty{
+  font-size: medium;
+  padding: 20px;
+  color: black;
+  opacity: 0.5;
+}
+
+.report-item-container-empty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin-top: 35%;
+}
+
+.report-items-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.report-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 15px;
+}
+
+.separator {
+  max-width: 100%;
+  height: 1px;
+  background-color: #A0A5FE;
+  opacity: 0.6;  
+  margin-top: 10px;
+  z-index: 0;
+}
+
+.report-item-child {
+  display: flex;
+}
+
+.report-item-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.history-speech-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 25px;
+  transition: all 0.2s ease-in-out;
+}
+
+.history-speech-title {
+  font-size: 16px;
+  font-weight: 550;
+}
+
+.history-speech-subtitle {
+  font-size: xx-small;
+}
+
+.number-overlay {
+  background-color: #F5EFFB;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  font-size: medium;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.summary-btn {
+  width: 150px ;
+  font-size: 12px;
+  border-radius: 14px;
+  transition: all 0.2s ease-in-out;
+}
+
+td, th {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 8px;
+  color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+.pay-container {
+  margin: 0 auto;
+  justify-content: center;
+}
